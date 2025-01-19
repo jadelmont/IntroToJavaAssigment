@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+</head>
+<body>
+    <label>Your course name : <input class="course" type="text"></input></label>
+    </body>
+    <script>
+        let userResponse = prompt("What platform do you r=prefer - Vuw, jQuery, Angular?");
+
+alert("Hmm ... " + userResponse + " ... that's a great class! Make sure to practice!");
+
+alert("Hello World");
+
+        alert(document.querySelector('.course'));
+
+        let txtCourse = document.querySelector('.course');
+
+        txtCourse.addEventListener('focusout',
+
+            (event) => { alert(txtCourse.value) });
+    </script>
+</html>
